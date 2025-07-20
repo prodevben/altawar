@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - AquaTech Solutions</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNavbar">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/Al Tawar Logo.png" alt="Al Tawar Logo" class="brand-logo nav-logo me-2">
+                <span class="brand-text nav-text">GENERAL</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="page-title animate-on-scroll">Get In Touch</h1>
+                    <p class="page-subtitle animate-on-scroll" data-delay="100">Ready to find your perfect water cooling solution? We're here to help!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-content py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-5">
+                    <div class="contact-form-wrapper animate-on-scroll">
+                        <h3>Send Us a Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="firstName" class="form-label">First Name *</label>
+                                    <input type="text" class="form-control" id="firstName" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="lastName" class="form-label">Last Name *</label>
+                                    <input type="text" class="form-control" id="lastName" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" class="form-control" id="phone">
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="company" class="form-label">Company/Organization</label>
+                                <input type="text" class="form-control" id="company">
+                            </div>
+                            <div class="mb-3">
+                                <label for="inquiryType" class="form-label">Inquiry Type *</label>
+                                <select class="form-select" id="inquiryType" required>
+                                    <option value="">Select an option</option>
+                                    <option value="general">General Information</option>
+                                    <option value="quote">Request Quote</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea class="form-control" id="message" rows="5" required placeholder="Tell us about your water cooling needs..."></textarea>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <label class="form-check-label" for="newsletter">
+                                    Subscribe to our newsletter for updates and special offers
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4">
+                    <div class="contact-info-cards">
+                        <div class="contact-card animate-on-scroll" data-delay="200">
+                            <div class="contact-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <h5>Visit Our Office</h5>
+                            <p>Warehouse #16<br>Industrial Area 13<br>Sharjah, UAE</p>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll" data-delay="300">
+                            <div class="contact-icon">
+                                <i class="bi bi-telephone"></i>
+                            </div>
+                            <h5>Call Us</h5>
+                            <p>Sales: <br>Support: <br>Mon-Fri: </p>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll" data-delay="400">
+                            <div class="contact-icon">
+                                <i class="bi bi-envelope"></i>
+                            </div>
+                            <h5>Email Us</h5>
+                            <p>Sales: sales@altawaruae.com<br>Support: <br>General: info@altawaruae.com</p>
+                        </div>
+                        
+                        <div class="contact-card animate-on-scroll" data-delay="500">
+                            <div class="contact-icon">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <h5>Business Hours</h5>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 3:00 PM<br>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h3 class="animate-on-scroll">Find Us Here</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="map-placeholder animate-on-scroll">
+                        <div class="map-content">
+                            <i class="bi bi-geo-alt"></i>
+                            <h5>Interactive Map</h5>
+                            <p>AL Batayeh, Sharjah</p>
+                            <small>Map integration would be implemented here</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <div class="text-center mb-5">
+                        <h3 class="animate-on-scroll">Frequently Asked Questions</h3>
+                        <p class="animate-on-scroll" data-delay="100">Quick answers to common questions</p>
+                    </div>
+                    
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item animate-on-scroll" data-delay="0">
+                            <h2 class="accordion-header" id="faq1">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">
+                                    What types of water coolers do you manufacture?
+                                </button>
+                            </h2>
+                            <div id="collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    We manufacture three main series: Office Series for commercial use, Home Series for residential applications, and Industrial Series for heavy-duty commercial and industrial environments.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item animate-on-scroll" data-delay="100">
+                            <h2 class="accordion-header" id="faq2">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">
+                                    Do you offer warranty on your products?
+                                </button>
+                            </h2>
+                            <div id="collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, all our water coolers come with a comprehensive warranty. Home series have 2-year warranty, Office series have 3-year warranty, and Industrial series have 5-year warranty.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item animate-on-scroll" data-delay="200">
+                            <h2 class="accordion-header" id="faq3">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3">
+                                    Do you provide installation and maintenance services?
+                                </button>
+                            </h2>
+                            <div id="collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Absolutely! We provide professional installation services and ongoing maintenance support. Our certified technicians are available for installation, regular maintenance, and emergency repairs.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item animate-on-scroll" data-delay="300">
+                            <h2 class="accordion-header" id="faq4">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4">
+                                    Can I get a custom quote for bulk orders?
+                                </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Yes, we offer competitive pricing for bulk orders and can provide customized solutions for large commercial projects. Contact our sales team for a personalized quote.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="footer-brand">
+                        <div class="d-flex align-items-center mb-3">
+                            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                                <img src="images/Al Tawar Logo.png" alt="Al Tawar Logo" class="brand-logo nav-logo me-2">
+                                <span class="brand-text nav-text" style="font-size: 16px;">GENERAL</span>
+                            </a>
+                        </div>
+                        <p>Leading manufacturer of premium water cooling solutions for over 15 years.</p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h6>Quick Links</h6>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a style="color: #5fa5fa;" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h6>Contact Info</h6>
+                    <div class="contact-info">
+                        <p><i class="bi bi-geo-alt me-2"></i>123 Industry Street, Tech City</p>
+                        <p><i class="bi bi-telephone me-2"></i>+1 (555) 123-4567</p>
+                        <p><i class="bi bi-envelope me-2"></i>info@altawaruae.com</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 mb-4">
+                    <h6>Follow Us</h6>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2025 Al Tawar Refrigerators &amp; A/C Factory LLC. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+</body>
+</html>
