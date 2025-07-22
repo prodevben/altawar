@@ -30,6 +30,7 @@ body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-dark);
+    background: linear-gradient(to bottom right, #F8FCFF, #EAFBFF);
 }
 
 .btn {
@@ -213,7 +214,7 @@ body {
 .page-header {
     background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
     color: white;
-    padding: 110px 0 60px;
+    padding: 110px 0 40px;
     text-align: center;
 }
 
@@ -296,7 +297,7 @@ body {
 /* Product Cards */
 .products-preview,
 .products-grid {
-    padding: 80px 0;
+    padding-bottom: 80px;
 }
 
 .product-card {
@@ -306,6 +307,7 @@ body {
     transition: var(--transition);
     height: 100%;
     border: 1px solid #E5E7EB;
+    cursor: pointer;
 }
 
 .product-card:hover {
@@ -322,7 +324,7 @@ body {
 .product-image img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     transition: var(--transition);
 }
 
@@ -370,6 +372,10 @@ body {
     color: var(--primary-blue);
 }
 
+.product-categories{
+    padding-top: 2rem;
+}
+
 /* Product Categories */
 .category-tabs {
     margin-bottom: 3rem;
@@ -414,7 +420,7 @@ body {
 
 /* About Page Styles */
 .about-content {
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 .about-text h2 {
@@ -425,7 +431,7 @@ body {
 }
 
 .about-text .lead {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: var(--primary-blue);
     font-weight: 600;
     margin-bottom: 1.5rem;
@@ -821,6 +827,10 @@ body {
     transform: translateY(0);
 }
 
+
+.mb0{
+    margin-top: -5rem;
+}
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero-title {
@@ -841,8 +851,6 @@ body {
         width: 100%;
     }
     
-    .feature-card,
-    .product-card,
     .contact-card {
         margin-bottom: 2rem;
     }
@@ -876,3 +884,122 @@ body {
         padding: 1.5rem;
     }
 }
+
+@media (max-width: 768px) {
+    .hero-section {
+      padding: 1rem 1rem;
+      text-align: center;
+    }
+  
+    .hero-buttons {
+      margin-bottom: 1.5rem;
+    }
+  
+    .hero-image {
+      margin-top: 0rem; /* reduced spacing */
+    }
+  
+    .hero-image img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .hero-section .row {
+      min-height: auto !important;
+    }
+  
+    .hero-image {
+      margin-top: 1rem !important;
+    }
+    .section-subtitle{
+        margin-bottom: 0rem;
+    }
+    .features-section{
+        padding: 1rem;
+    }
+    .nav-mob{
+        height: auto !important;
+        text-align: center;
+        background: rgba(30, 64, 175, 0.95) !important;
+        backdrop-filter: blur(10px);
+    }
+    .products-preview{
+        padding: 1rem;
+    }
+    .footer{
+        padding: 1rem;
+    }
+    .mb0{
+        margin-top: -2rem;
+    }
+    .nav-link::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 50%;
+        width: 0;
+        height: 2px;
+        background: var(--accent-blue);
+        transition: var(--transition);
+        transform: translateX(-50%);
+    }
+    
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        width: 15%;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .page-header{
+        padding: 140px 0px 20px;
+    }
+    .about-content{
+        padding: 0.5rem;
+        padding-top: 25px;
+    }
+    .mission-vision{
+        padding: 0.5rem;
+        padding-top: 35px;
+    }
+    .values{
+        padding: 40px 0;
+    }
+    .team{
+        padding: 1rem;
+    }
+    .product-categories{
+        padding-top: 40px;
+    }
+    .products-grid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .spec-row{
+        padding: 5px;
+    }
+    .spec-dec{
+        padding: 1rem;
+    }
+    .cta-section{
+        padding: 1rem;
+    }
+    .cta-content h2{
+        font-size: 2.25rem;
+    }
+    .cta-content .lead{
+        font-size: 1.05rem;
+    }
+    .contact-content{
+        padding: 0.5rem;
+    }
+    .map-section{
+        padding: 0.5rem;
+    }
+    .faq-section{
+        padding: 0.5rem;
+    }
+  }
