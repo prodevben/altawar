@@ -1,0 +1,82 @@
+[
+  {
+    "id": "office-pro-500",
+    "title": "Office Pro 500",
+    "category": "office",
+    "image": "https://images.pexels.com/photos/1267684/pexels-photo-1267684.jpeg",
+    "description": "Professional-grade water cooler designed for medium to large offices. Features hot and cold water dispensing with child safety locks.",
+    "shortDescription": "Professional water cooler for medium offices",
+    "specs": "Capacity: 5 gallons, Power: 500W, Dimensions: 36x12x12 inches",
+    "price": "$299"
+  },
+  {
+    "id": "office-elite-750",
+    "title": "Office Elite 750",
+    "category": "office",
+    "image": "https://images.pexels.com/photos/3184308/pexels-photo-3184308.jpeg",
+    "description": "Premium office water cooler with advanced filtration system and touchless dispensing technology.",
+    "shortDescription": "Premium office cooler with advanced features",
+    "specs": "Capacity: 7.5 gallons, Power: 750W, Dimensions: 40x14x14 inches",
+    "price": "$449"
+  },
+  {
+    "id": "office-standard-350",
+    "title": "Office Standard 350",
+    "category": "office",
+    "image": "https://images.pexels.com/photos/3184351/pexels-photo-3184351.jpeg",
+    "description": "Reliable and affordable office water cooler perfect for small to medium businesses. Easy maintenance and operation.",
+    "shortDescription": "Reliable solution for small offices",
+    "specs": "Capacity: 3.5 gallons, Power: 350W, Dimensions: 30x11x11 inches",
+    "price": "$219"
+  },
+  {
+    "id": "home-compact-300",
+    "title": "Home Compact 300",
+    "category": "home",
+    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg",
+    "description": "Compact and stylish water cooler perfect for small homes and apartments. Energy-efficient design with quiet operation.",
+    "shortDescription": "Compact cooler for small spaces",
+    "specs": "Capacity: 3 gallons, Power: 300W, Dimensions: 24x10x10 inches",
+    "price": "$189"
+  },
+  {
+    "id": "home-deluxe-400",
+    "title": "Home Deluxe 400",
+    "category": "home",
+    "image": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
+    "description": "Full-featured home water cooler with hot, cold, and room temperature options. Modern design fits any home decor.",
+    "shortDescription": "Full-featured home water solution",
+    "specs": "Capacity: 4 gallons, Power: 400W, Dimensions: 32x11x11 inches",
+    "price": "$249"
+  },
+  {
+    "id": "home-premium-450",
+    "title": "Home Premium 450",
+    "category": "home",
+    "image": "https://images.pexels.com/photos/3184293/pexels-photo-3184293.jpeg",
+    "description": "Premium home water cooler with smart temperature control and energy-saving features. Perfect for large families.",
+    "shortDescription": "Premium home cooling solution",
+    "specs": "Capacity: 4.5 gallons, Power: 450W, Dimensions: 34x12x12 inches",
+    "price": "$329"
+  },
+  {
+    "id": "industrial-max-1000",
+    "title": "Industrial Max 1000",
+    "category": "industrial",
+    "image": "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg",
+    "description": "Heavy-duty industrial water cooler built for high-volume usage in factories, warehouses, and large commercial spaces.",
+    "shortDescription": "Heavy-duty cooler for industrial use",
+    "specs": "Capacity: 10 gallons, Power: 1000W, Dimensions: 48x18x18 inches",
+    "price": "$699"
+  },
+  {
+    "id": "industrial-pro-800",
+    "title": "Industrial Pro 800",
+    "category": "industrial",
+    "image": "https://images.pexels.com/photos/3184355/pexels-photo-3184355.jpeg",
+    "description": "Robust industrial water cooler with stainless steel construction and high-capacity cooling system for demanding environments.",
+    "shortDescription": "Robust solution for demanding environments",
+    "specs": "Capacity: 8 gallons, Power: 800W, Dimensions: 42x16x16 inches",
+    "price": "$549"
+  }
+]

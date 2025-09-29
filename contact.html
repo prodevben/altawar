@@ -3,24 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Al Tawar</title>
+    <title>Contact Us - Al Tawar Refrigerators & A/C Factory LLC</title>
     
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+      <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=swap');
+    </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-mob" style="height: 80px;" id="mainNavbar">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-blend" id="mainNavbar">
         <div class="container">
             <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="images/Al Tawar Logo.png" alt="Al Tawar Logo" class="brand-logo nav-logo me-2">
-                <span class="brand-text nav-text">GENERAL</span>
+                <img src="assets/tgenlogo.png" alt="Al Tawar Logo" class="brand-logo me-2">
             </a>
-            
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -28,16 +32,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link " href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Us</a>
+                        <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="products.html">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="contact.html">Contact Us</a>
+                        <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -62,36 +66,31 @@
             <div class="row">
                 <div class="col-lg-8 mb-5">
                     <div class="contact-form-wrapper animate-on-scroll">
-                        <h3>Send Us a Message</h3>
+                        <h3>Send us an enquiry</h3>
                         <form id="contactForm" class="contact-form">
                             <div class="row">
-                                <div class="col-md-6 mb-3">
-                                    <label for="firstName" class="form-label">First Name *</label>
-                                    <input type="text" class="form-control" id="firstName" required>
-                                </div>
-                                <div class="col-md-6 mb-3">
-                                    <label for="lastName" class="form-label">Last Name *</label>
-                                    <input type="text" class="form-control" id="lastName" required>
+                                <div class="col-md-12 mb-3">
+                                    <label for="firstName" class="form-label">Name *</label>
+                                    <input type="text" class="form-control" id="name" name="Name" required>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="email" class="form-label">Email Address *</label>
-                                    <input type="email" class="form-control" id="email" required>
+                                    <input type="email" class="form-control" id="email" name="Email" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
-                                    <label for="phone" class="form-label">Phone Number</label>
-                                    <input type="tel" class="form-control" id="phone">
+                                    <label for="phone" class="form-label">Phone Number *</label>
+                                    <input type="tel" class="form-control" id="phone" name="Phone" required>
                                 </div>
                             </div>
                             <div class="mb-3">
                                 <label for="company" class="form-label">Company/Organization</label>
-                                <input type="text" class="form-control" id="company">
+                                <input type="text" class="form-control" id="company" name="Company">
                             </div>
                             <div class="mb-3">
                                 <label for="inquiryType" class="form-label">Inquiry Type *</label>
-                                <select class="form-select" id="inquiryType" required>
-                                    <option value="">Select an option</option>
+                                <select class="form-select" id="inquiryType" name="inquiryType" required>
                                     <option value="general">General Information</option>
                                     <option value="quote">Request Quote</option>
                                     <option value="support">Technical Support</option>
@@ -100,35 +99,28 @@
                             </div>
                             <div class="mb-3">
                                 <label for="message" class="form-label">Message *</label>
-                                <textarea class="form-control" id="message" rows="5" required placeholder="Tell us about your water cooling needs..."></textarea>
+                                <textarea class="form-control" id="message" name="Message" rows="5" placeholder="Tell us about your water cooling needs..." required></textarea>
                             </div>
                             <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="newsletter">
+                                <input type="checkbox" class="form-check-input" id="newsletter" name="promotion">
                                 <label class="form-check-label" for="newsletter">
                                     Subscribe to our newsletter for updates and special offers
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                            <button type="submit" class="btn btn-primary btn-lg">Send Enquiry</button>
                         </form>
                     </div>
                 </div>
                 
                 <div class="col-lg-4">
                     <div class="contact-info-cards">
-                        <div class="contact-card animate-on-scroll" data-delay="200">
-                            <div class="contact-icon">
-                                <i class="bi bi-geo-alt"></i>
-                            </div>
-                            <h5>Visit Our Office</h5>
-                            <p>Warehouse #16<br>Industrial Area 13<br>Sharjah, UAE</p>
-                        </div>
                         
                         <div class="contact-card animate-on-scroll" data-delay="300">
                             <div class="contact-icon">
                                 <i class="bi bi-telephone"></i>
                             </div>
                             <h5>Call Us</h5>
-                            <p>Sales: <br>Support: <br>Mon-Fri: </p>
+                            <p>+971545473400<br>+971561333979<br>067675839</p>
                         </div>
                         
                         <div class="contact-card animate-on-scroll" data-delay="400">
@@ -136,7 +128,7 @@
                                 <i class="bi bi-envelope"></i>
                             </div>
                             <h5>Email Us</h5>
-                            <p>Sales: sales@altawaruae.com<br>Support: <br>General: info@altawaruae.com</p>
+                            <p>Sales: mohsinriaz290@gmail.com</p>
                         </div>
                         
                         <div class="contact-card animate-on-scroll" data-delay="500">
@@ -144,7 +136,7 @@
                                 <i class="bi bi-clock"></i>
                             </div>
                             <h5>Business Hours</h5>
-                            <p>Monday - Friday: 8:00 AM - 6:00 PM<br>Saturday: 9:00 AM - 3:00 PM<br>Sunday: Closed</p>
+                            <p>Monday - Saturday: 8:00 AM - 5:00 PM<br>Sunday: Closed</p>
                         </div>
                     </div>
                 </div>
@@ -153,7 +145,7 @@
     </section>
 
     <!-- Map Section -->
-    <section class="map-section py-5" style="background: linear-gradient(to bottom right, #F9FCFE, #F0FAFC);" >
+    <section class="map-section py-5 bg-light">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center mb-4">
@@ -161,22 +153,26 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-12">
-                    <div class="map-placeholder animate-on-scroll">
-                        <div class="map-content">
-                            <i class="bi bi-geo-alt"></i>
-                            <h5>Interactive Map</h5>
-                            <p>AL Batayeh, Sharjah</p>
-                            <small>Map integration would be implemented here</small>
-                        </div>
-                    </div>
-                </div>
+<div class="col-12">
+  <div class="map-placeholder animate-on-scroll">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2516.099073724826!2d55.73234734409149!3d25.27147693603626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjXCsDE2JzE3LjUiTiA1NcKwNDQnMDMuMCJF!5e0!3m2!1sen!2sin!4v1759134749750!5m2!1sen!2sin"
+      width="100%"
+      height="400"
+      style="border:0; border-radius: 12px;"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</div>
+
             </div>
         </div>
     </section>
 
-    <!-- FAQ Section --> 
-    <section class="faq-section py-5" style="background: linear-gradient(to bottom right, #F9FCFE, #F0FAFC);" >
+    <!-- FAQ Section -->
+    <section class="faq-section py-5">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
@@ -250,10 +246,7 @@
                 <div class="col-lg-4 mb-4">
                     <div class="footer-brand">
                         <div class="d-flex align-items-center mb-3">
-                            <a class="navbar-brand d-flex align-items-center" href="index.html">
-                                <img src="images/Al Tawar Logo.png" alt="Al Tawar Logo" class="brand-logo nav-logo me-2">
-                                <span class="brand-text nav-text" style="font-size: 16px;">GENERAL</span>
-                            </a>
+                            <img src="assets/tgenlogo.png" alt="Al Tawar Logo" class="brand-logo me-2">
                         </div>
                         <p>Leading manufacturer of premium water cooling solutions for over 15 years.</p>
                     </div>
@@ -262,17 +255,17 @@
                     <h6>Quick Links</h6>
                     <ul class="footer-links">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="about.html">About</a></li>
                         <li><a href="products.html">Products</a></li>
-                        <li><a style="color: #5fa5fa;" href="contact.html">Contact Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4">
                     <h6>Contact Info</h6>
                     <div class="contact-info">
-                        <p><i class="bi bi-geo-alt me-2"></i>123 Industry Street, Tech City</p>
-                        <p><i class="bi bi-telephone me-2"></i>+1 (555) 123-4567</p>
-                        <p><i class="bi bi-envelope me-2"></i>info@altawaruae.com</p>
+                        <p><i class="bi bi-geo-alt me-2"></i>Al Bataeh, Sharjah - United Arab Emirates</p>
+                        <p><i class="bi bi-telephone me-2"></i>+971545473400</p>
+                        <p><i class="bi bi-envelope me-2"></i>mohsinriaz290@gmail.com</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-12 mb-4">
@@ -288,7 +281,7 @@
             <hr class="my-4">
             <div class="row">
                 <div class="col-12 text-center">
-                    <p class="mb-0">&copy; 2025 Al Tawar Refrigerators &amp; A/C Factory LLC. All rights reserved.</p>
+                    <p class="mb-0">&copy; 2025 Al Tawar LLC. All rights reserved.</p>
                 </div>
             </div>
         </div>
@@ -297,6 +290,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Custom JS -->
-    <script src="main.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Form handler -->
 </body>
 </html>
