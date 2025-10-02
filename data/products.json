@@ -1,82 +1,125 @@
 [
   {
-    "id": "office-pro-500",
-    "title": "Office Pro 500",
-    "category": "office",
-    "image": "https://images.pexels.com/photos/1267684/pexels-photo-1267684.jpeg",
-    "description": "Professional-grade water cooler designed for medium to large offices. Features hot and cold water dispensing with child safety locks.",
-    "shortDescription": "Professional water cooler for medium offices",
-    "specs": "Capacity: 5 gallons, Power: 500W, Dimensions: 36x12x12 inches",
-    "price": "$299"
+    "id": "1",
+    "title": "TG20T2WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG20T2WC.jpg",
+    "specs": "Cooling Capacity : 20 US Gallons, No. of Taps : Two, Dimensions (mm) : 1250 (H) x 490 (W) x 540 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/4 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "office-elite-750",
-    "title": "Office Elite 750",
-    "category": "office",
-    "image": "https://images.pexels.com/photos/3184308/pexels-photo-3184308.jpeg",
-    "description": "Premium office water cooler with advanced filtration system and touchless dispensing technology.",
-    "shortDescription": "Premium office cooler with advanced features",
-    "specs": "Capacity: 7.5 gallons, Power: 750W, Dimensions: 40x14x14 inches",
-    "price": "$449"
+    "id": "2",
+    "title": "TG25T2WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG25T2WC.jpg",
+    "specs": "Cooling Capacity : 25 US Gallons, No. of Taps : Two, Dimensions (mm) : 1250 (H) x 580 (W) x 550 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/4 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "office-standard-350",
-    "title": "Office Standard 350",
-    "category": "office",
-    "image": "https://images.pexels.com/photos/3184351/pexels-photo-3184351.jpeg",
-    "description": "Reliable and affordable office water cooler perfect for small to medium businesses. Easy maintenance and operation.",
-    "shortDescription": "Reliable solution for small offices",
-    "specs": "Capacity: 3.5 gallons, Power: 350W, Dimensions: 30x11x11 inches",
-    "price": "$219"
+    "id": "3",
+    "title": "TG25T2+1WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG25T2+1WC.jpg",
+    "specs": "Cooling Capacity : 25 US Gallons, No. of Taps : Two (Cold) + One (Normal), Dimensions (mm) : 1250 (H) x 580 (W) x 550 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/4 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "home-compact-300",
-    "title": "Home Compact 300",
-    "category": "home",
-    "image": "https://images.pexels.com/photos/2280571/pexels-photo-2280571.jpeg",
-    "description": "Compact and stylish water cooler perfect for small homes and apartments. Energy-efficient design with quiet operation.",
-    "shortDescription": "Compact cooler for small spaces",
-    "specs": "Capacity: 3 gallons, Power: 300W, Dimensions: 24x10x10 inches",
-    "price": "$189"
+    "id": "4",
+    "title": "TG45T3WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG45T3WC.jpg",
+    "specs": "Cooling Capacity : 45 US Gallons, No. of Taps : Three, Dimensions (mm) : 1250 (H) x 630 (W) x 550 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/4 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "home-deluxe-400",
-    "title": "Home Deluxe 400",
-    "category": "home",
-    "image": "https://images.pexels.com/photos/3184297/pexels-photo-3184297.jpeg",
-    "description": "Full-featured home water cooler with hot, cold, and room temperature options. Modern design fits any home decor.",
-    "shortDescription": "Full-featured home water solution",
-    "specs": "Capacity: 4 gallons, Power: 400W, Dimensions: 32x11x11 inches",
-    "price": "$249"
+    "id": "5",
+    "title": "TG45T3+1WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG25T2+1WC.jpg",
+    "specs": "Cooling Capacity : 45 US Gallons, No. of Taps : Three (Cold) + One (Normal), Dimensions (mm) : 1250 (H) x 630 (W) x 550 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/4 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "home-premium-450",
-    "title": "Home Premium 450",
-    "category": "home",
-    "image": "https://images.pexels.com/photos/3184293/pexels-photo-3184293.jpeg",
-    "description": "Premium home water cooler with smart temperature control and energy-saving features. Perfect for large families.",
-    "shortDescription": "Premium home cooling solution",
-    "specs": "Capacity: 4.5 gallons, Power: 450W, Dimensions: 34x12x12 inches",
-    "price": "$329"
+    "id": "6",
+    "title": "TG70T3WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG70T3WC.jpg",
+    "specs": "Cooling Capacity : 65 US Gallons, No. of Taps : Three, Dimensions (mm) : 1250 (H) x 730 (W) x 550 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/3 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "industrial-max-1000",
-    "title": "Industrial Max 1000",
-    "category": "industrial",
-    "image": "https://images.pexels.com/photos/3768911/pexels-photo-3768911.jpeg",
-    "description": "Heavy-duty industrial water cooler built for high-volume usage in factories, warehouses, and large commercial spaces.",
-    "shortDescription": "Heavy-duty cooler for industrial use",
-    "specs": "Capacity: 10 gallons, Power: 1000W, Dimensions: 48x18x18 inches",
-    "price": "$699"
+    "id": "7",
+    "title": "TG85T4WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG85T4WC.jpg",
+    "specs": "Cooling Capacity : 85 US Gallons, No. of Taps : Four, Dimensions (mm) : 1290 (H) x 880 (W) x 600 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 3/8 hp HBP, Refrigerant : R134a/R290a"
   },
   {
-    "id": "industrial-pro-800",
-    "title": "Industrial Pro 800",
-    "category": "industrial",
-    "image": "https://images.pexels.com/photos/3184355/pexels-photo-3184355.jpeg",
-    "description": "Robust industrial water cooler with stainless steel construction and high-capacity cooling system for demanding environments.",
-    "shortDescription": "Robust solution for demanding environments",
-    "specs": "Capacity: 8 gallons, Power: 800W, Dimensions: 42x16x16 inches",
-    "price": "$549"
-  }
+    "id": "8",
+    "title": "TG100T5WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG100T5WC.jpg",
+    "specs": "Cooling Capacity : 100 US Gallons, No. of Taps : Five, Dimensions (mm) : 1290 (H) x 990 (W) x 600 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1/2 hp HBP, Refrigerant : R134a/R290a"
+  },
+  {
+    "id": "9",
+    "title": "TG125T5WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG125T5WC.jpg",
+    "specs": "Cooling Capacity : 125 US Gallons, No. of Taps : Five, Dimensions (mm) : 1290 (H) x 1100 (W) x 600 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 3/4 hp HBP, Refrigerant : R134a/R290a"
+  },
+  {
+    "id": "10",
+    "title": "TG150T5WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG150T5WC.jpg",
+    "specs": "Cooling Capacity : 150 US Gallons, No. of Taps : Five, Dimensions (mm) : 1450 (H) x 1100 (W) x 760 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 3/4 hp HBP, Refrigerant : R134a/R290a"
+  },
+  {
+    "id": "11",
+    "title": "TG250T5WC",
+    "category": "coolers",
+    "image": "assets/products/Water-Coolers/TG250T5WC.jpg",
+    "specs": "Cooling Capacity : 250 US Gallons, No. of Taps : Five, Dimensions (mm) : 1450 (H) x 1200 (W) x 760 (D), Cooling Temperature : 25° C inlet water & 12° C outlet water temp, Compressor : 1 hp HBP, Refrigerant : R134a/R290a"
+  },
+  {
+    "id": "12",
+    "title": "AT-400GDRW",
+    "category": "refrigerators",
+    "image": "assets/products/Glass-Door-Refrigerators/AT-400GDRW.jpg",
+    "specs": "No. of Shelves : Five, Dimensions (mm) : 600 (W) x 800 (D) x 2000 (H), Temperature Range : +2 to +10° C, Cooling System : No Frost, Refrigerant : R290a, Glass Door : 2 Layer Tempered with LOWE"
+  },
+  {
+    "id": "13",
+    "title": "AT-1000GDRW",
+    "category": "refrigerators",
+    "image": "assets/products/Glass-Door-Refrigerators/AT-1000GDRW.jpg",
+    "specs": "No. of Shelves : Five, Dimensions (mm) : 1100 (W) x 600 (D) x 2000 (H), Temperature Range : +2 to +10° C, Cooling System : No Frost, Refrigerant : R290a, Glass Door : 2 Layer Tempered with LOWE"
+  },
+  {
+    "id": "14",
+    "title": "AT-1000GDRB",
+    "category": "refrigerators",
+    "image": "assets/products/Glass-Door-Refrigerators/AT-1000GDRB.jpg",
+    "specs": "No. of Shelves : Five, Dimensions (mm) : 1200 (W) x 600 (D) x 2000 (H), Temperature Range : +2 to +10° C, Cooling System : No Frost, Refrigerant : R290a, Glass Door : 2 Layer Tempered with LOWE"
+  },
+  {
+    "id": "15",
+    "title": "AT-1300GDRB",
+    "category": "refrigerators",
+    "image": "assets/products/Glass-Door-Refrigerators/AT-1300GDRB.jpg",
+    "specs": "No. of Shelves : Five, Dimensions (mm) : 1200 (W) x 760 (D) x 2000 (H), Temperature Range : +2 to +10° C, Cooling System : No Frost, Refrigerant : R290a, Glass Door : 2 Layer Tempered with LOWE"
+  },
+  {
+    "id": "16",
+    "title": "AT24WTC",
+    "category": "chillerTanks",
+    "image": "assets/products/Water-Tank-Chillers/chiller.jpg",
+    "specs": "Tank capacity to be cooled: 800-1000 Gallon, Unit Capacity: 2 HP, Unit Dimensions - L x D x H: 600x600x700 mm, Refrigerant: R410a, Refrigerant Quantity: 1000 grams, Cooling Coil: Titanium, Compressor Brand: Panasonic, Compressor Type: Scroll, Power Supply: 220-240/1/50 V/Ph/Hz, Power Input: 1800 Watts, Water Circulation Pump: Stainless Steel, Rated Water Flow: 6 M3/hour, Water Connections - Inlet/Outlet: 32 mm, Ambient Temperature: 30-53 °C, Outlet Water Temperature: 10-30 °C, Weight: 55 kg"},
+  {
+    "id": "17",
+    "title": "AT36WTC",
+    "category": "chillerTanks",
+    "image": "assets/products/Water-Tank-Chillers/chiller.jpg",
+    "specs": "Tank capacity to be cooled: 1200-1500 Gallon, Unit Capacity: 3 HP, Unit Dimensions - L x D x H: 700x700x830 mm, Refrigerant: R410a, Refrigerant Quantity: 1400 grams, Cooling Coil: Titanium, Compressor Brand: Panasonic, Compressor Type: Scroll, Power Supply: 220-240/1/50 V/Ph/Hz, Power Input: 2400 Watts, Water Circulation Pump: Stainless Steel, Rated Water Flow: 6 M3/hour, Water Connections - Inlet/Outlet: 32 mm, Ambient Temperature: 30-53 °C, Outlet Water Temperature: 10-30 °C, Weight: 75 kg"},
+  {
+    "id": "18",
+    "title": "AT60WTC",
+    "category": "chillerTanks",
+    "image": "assets/products/Water-Tank-Chillers/chiller.jpg",
+    "specs": "Tank capacity to be cooled: 2000-3000 Gallon, Unit Capacity: 5 HP, Unit Dimensions - L x D x H: 750x750x1080 mm, Refrigerant: R410a, Refrigerant Quantity: 2000 grams, Cooling Coil: Titanium, Compressor Brand: Panasonic, Compressor Type: Scroll, Power Supply: 380-420/3/50 V/Ph/Hz, Power Input: 4000 Watts, Water Circulation Pump: Stainless Steel, Rated Water Flow: 9 M3/hour, Water Connections - Inlet/Outlet: 32 mm, Ambient Temperature: 30-53 °C, Outlet Water Temperature: 10-30 °C, Weight: 115 kg"}
 ]

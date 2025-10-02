@@ -59,8 +59,6 @@ class ProductManager {
                 </div>
                 <div class="product-content">
                     <h5>${product.title}</h5>
-                    <p>${product.shortDescription}</p>
-                    <div class="product-price">${product.price}</div>
                 </div>
             </div>
         `;
