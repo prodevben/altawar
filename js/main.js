@@ -91,7 +91,7 @@ function initContactForm() {
         if (isValid) {
             // Submit with AJAX only if valid
             $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbxVxfG_zjNcv1I_oggfCT5Vn4LMNcnhqgDNL7CnT8WRbvocv9zKLp76OsgsDvcUuP5CMQ/exec", // 🔹 Add your PHP or API endpoint here
+                url: "https://script.google.com/macros/s/AKfycbykWRPORcPA2kzaK91wwDQhBZdPy_B5InkpAWQ8fqva9gxOp9bPG1CfSYhzOw45pYDm-A/exec", // 🔹 Add your PHP or API endpoint here
                 data: $(contactForm).serialize(),
                 method: "post",
                 success: function (response) {
